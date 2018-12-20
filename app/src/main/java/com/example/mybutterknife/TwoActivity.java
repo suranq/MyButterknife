@@ -43,5 +43,8 @@ public class TwoActivity extends AppCompatActivity {
     public void onViewClicked() {
         EventBus.getDefault().post(new MyMessage("asdsa",1000));
         finish();
+
+
+
     }
 }
